@@ -14,7 +14,7 @@ class Parent:
     pass
 class Son(Parent):
     pass
-issubclass(Son,Parent) # issubclass(Derived_Class,Base_Class) : returns True
+print(issubclass(Son,Parent)) # issubclass(Derived_Class,Base_Class) : returns True
 
 #Example 2
 class Debian:
